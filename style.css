@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+* {
+  font-family: 'Work Sans', Tahoma, sans-serif;
+  margin: 0;
+}
+
+/*heading alignment*/
+
+h1, h4, nav, footer {
+  text-align: center;
+}
+
+/*nav alignment and style styles*/
+nav {
+  width: 100%;
+  overflow: auto;
+}
+
+nav, footer {
+  background-color: #ebaf47;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  width: 33.33%;
+  color: #fff;  
+  padding: 12px 0;
+}
+
+nav a:hover {
+  color: #ebaf47;
+  background-color: #fff;
+}
+
+.nav-target {
+  font-weight: bolder;
+}
+
+.content {
+  /* background source: https: //www.toptal.com/designers/subtlepatterns/funky-lines/ */
+  background-image: url("images/1020.png");
+  background-repeat: repeat;
+}
+
+/*title styles*/
+
+.title-block {
+  padding: 40px 0;
+}
+
+.info-titles {
+  padding: 25px 10% 5px;
+}
+
+/*img alignment*/
+
+.img-cov{
+  display: block;
+  max-width: 80%;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.information {
+  font-size: 22px;
+  padding: 20px 10%;
+}
+
+footer{
+  color: #fff;
+  padding: 12px; 
+}
